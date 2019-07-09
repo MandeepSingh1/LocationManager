@@ -14,7 +14,7 @@
 		51FDAAEA208F4DD600F551E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51FDAAE8208F4DD600F551E1 /* LaunchScreen.storyboard */; };
 		51FDAAF5208F4DD600F551E1 /* CoreLocationDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51FDAAF4208F4DD600F551E1 /* CoreLocationDemoTests.swift */; };
 		51FDAB00208F4DD600F551E1 /* CoreLocationDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51FDAAFF208F4DD600F551E1 /* CoreLocationDemoUITests.swift */; };
-		51FDAB0F208F4DEC00F551E1 /* FetchLocationSingleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51FDAB0E208F4DEC00F551E1 /* FetchLocationSingleton.swift */; };
+		51FDAB0F208F4DEC00F551E1 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51FDAB0E208F4DEC00F551E1 /* LocationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,7 +48,7 @@
 		51FDAAFB208F4DD600F551E1 /* CoreLocationDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreLocationDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		51FDAAFF208F4DD600F551E1 /* CoreLocationDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreLocationDemoUITests.swift; sourceTree = "<group>"; };
 		51FDAB01208F4DD600F551E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		51FDAB0E208F4DEC00F551E1 /* FetchLocationSingleton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FetchLocationSingleton.swift; sourceTree = "<group>"; };
+		51FDAB0E208F4DEC00F551E1 /* LocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +99,7 @@
 		51FDAADE208F4DD600F551E1 /* CoreLocationDemo */ = {
 			isa = PBXGroup;
 			children = (
-				51FDAB0D208F4DEC00F551E1 /* CurrentLocationSingleton */,
+				51FDAB0D208F4DEC00F551E1 /* LocationManager */,
 				51FDAADF208F4DD600F551E1 /* AppDelegate.swift */,
 				51FDAAE1208F4DD600F551E1 /* ViewController.swift */,
 				51FDAAE3208F4DD600F551E1 /* Main.storyboard */,
@@ -128,12 +128,12 @@
 			path = CoreLocationDemoUITests;
 			sourceTree = "<group>";
 		};
-		51FDAB0D208F4DEC00F551E1 /* CurrentLocationSingleton */ = {
+		51FDAB0D208F4DEC00F551E1 /* LocationManager */ = {
 			isa = PBXGroup;
 			children = (
-				51FDAB0E208F4DEC00F551E1 /* FetchLocationSingleton.swift */,
+				51FDAB0E208F4DEC00F551E1 /* LocationManager.swift */,
 			);
-			path = CurrentLocationSingleton;
+			path = LocationManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -272,7 +272,7 @@
 			files = (
 				51FDAAE2208F4DD600F551E1 /* ViewController.swift in Sources */,
 				51FDAAE0208F4DD600F551E1 /* AppDelegate.swift in Sources */,
-				51FDAB0F208F4DEC00F551E1 /* FetchLocationSingleton.swift in Sources */,
+				51FDAB0F208F4DEC00F551E1 /* LocationManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

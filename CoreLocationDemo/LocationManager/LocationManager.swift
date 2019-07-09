@@ -15,9 +15,9 @@ struct CompletionBlocks {
     typealias closure = (_ returnObject: AnyObject?, _ locationEnabled: AnyObject?) -> ()
 }
 
-class FetchLocation : NSObject {
+class LocationManager : NSObject {
     
-    static let SharedManager = FetchLocation()
+    static let SharedManager = LocationManager()
     
     //Step - 1: Initialize ClLocation Mananger
     var locationManager : CLLocationManager!
@@ -62,7 +62,7 @@ class FetchLocation : NSObject {
     }
 }
 
-extension FetchLocation : CLLocationManagerDelegate {
+extension LocationManager : CLLocationManagerDelegate {
     
     func locationManager(_ manager: CLLocationManager, didFailWithError error: Error) {
         
