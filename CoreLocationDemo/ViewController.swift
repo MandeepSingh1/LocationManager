@@ -22,7 +22,7 @@ class ViewController: UIViewController {
     
     func fetchUserCurrentLocation() {
         
-        let locationFetch = FetchLocation.SharedManager
+        let locationFetch = LocationManager.SharedManager
         locationFetch.startMonitoring()
         locationFetch.completionBlock = { [weak self] (userCoordinates, errorBlock) in
             
