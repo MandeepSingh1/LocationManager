@@ -14,6 +14,4 @@ This is basically for fetching user current location, In this example Singleton 
  
   s.ios.deployment_target = '10.0'
   s.pod_target_xcconfig = { 'SWIFT_VERSION' => '4.0' }
-  s.source_files = 'CoreLocationDemo/CurrentLocationSingleton/FetchLocationSingleton.swift'
- 
-end
+  s.source_files = 'LocationManager.swift'

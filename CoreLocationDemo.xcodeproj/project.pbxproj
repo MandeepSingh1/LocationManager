@@ -99,7 +99,7 @@
 		51FDAADE208F4DD600F551E1 /* CoreLocationDemo */ = {
 			isa = PBXGroup;
 			children = (
-				51FDAB0D208F4DEC00F551E1 /* LocationManager */,
+				51FDAB0E208F4DEC00F551E1 /* LocationManager.swift */,
 				51FDAADF208F4DD600F551E1 /* AppDelegate.swift */,
 				51FDAAE1208F4DD600F551E1 /* ViewController.swift */,
 				51FDAAE3208F4DD600F551E1 /* Main.storyboard */,
@@ -126,14 +126,6 @@
 				51FDAB01208F4DD600F551E1 /* Info.plist */,
 			);
 			path = CoreLocationDemoUITests;
-			sourceTree = "<group>";
-		};
-		51FDAB0D208F4DEC00F551E1 /* LocationManager */ = {
-			isa = PBXGroup;
-			children = (
-				51FDAB0E208F4DEC00F551E1 /* LocationManager.swift */,
-			);
-			path = LocationManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -375,7 +367,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -426,7 +418,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
